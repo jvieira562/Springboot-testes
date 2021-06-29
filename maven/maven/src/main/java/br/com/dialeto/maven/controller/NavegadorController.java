@@ -11,7 +11,7 @@ public class NavegadorController {
 	@GetMapping("/navegador")
 	//@Cacheable("Navegador")
 	public String Navegador()	{
-		return "Navegador On! Com cache.";
+		return "Navegador On!";
 	}
 
 }
